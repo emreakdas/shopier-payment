@@ -1,24 +1,21 @@
 <?php
-// Değişkene göre kendiniz düzenleyebilirsiniz.
-        include 'shopierAPI.php';
-				$shopierKey = $pos['shopierKey'];
-				$shopierSecret = $pos['shopierSecret'];
-				$shopier = new Shopier($shopierKey, $shopierSecret);
-				$shopier->setBuyer([
-					'id' => $kods,
-					'paket' => $paketbaslik,
-					'first_name' => $ad, 'last_name' => $soyad, 'email' => $email, 'phone' => $telefon]);
-				$shopier->setOrderBilling([
-					'billing_address' => $acikadres,
-					'billing_city' => $il,
-					'billing_country' => $ulke,
-					'billing_postcode' => $postakodu,
-				]);
-				$shopier->setOrderShipping([
-					'shipping_address' => $acikadres,
-					'shipping_city' => $il,
-					'shipping_country' => $ulke,
-					'shipping_postcode' => $postakodu,
-				]);
-				die($shopier->run($paketid, $fiyat, $callback));
+include 'shopierAPI.php'; // İndirdiğimiz dosyada bulunan sınıfımızı dosyaya dahil ediyoruz.
+$shopier = new Shopier('SHOPIER_API_KEY', 'SHOPIER_API_SECRET'); // Kendi api bilgilerinizi gireceksiniz.
+$shopier->setBuyer([ // Kullanıcı bilgileri
+'id' => '123456', // Sipariş kodu
+'paket' => 'Eti Canga', // Paket adı
+'first_name' => 'Emre', 'last_name' => 'AKDAŞ', 'email' => 'info@emreakdas.com', 'phone' => '05555555555']); // Kullanıcının ad, soyad, telefon, email bilgileri
+$shopier->setOrderBilling([
+'billing_address' => 'Meclis Mahallesi Emre Caddesi No:544564', //Kullanıcının adresi
+'billing_city' => 'İstanbul', // İl
+'billing_country' => 'Türkiye', //Ülke
+'billing_postcode' => '34000', //Posta Kodu
+]);
+$shopier->setOrderShipping([
+'shipping_address' => 'Meclis Mahallesi Emre Caddesi No:544564', //Kullanıcının adresi
+'shipping_city' => 'İstanbul', // İl
+'shipping_country' => 'Türkiye', //Ülke
+'shipping_postcode' => '34000', //Posta Kodu
+]);
+die($shopier->run('544546545', 50, 'https://emreakdas.com/shopierNotify.php')); // Burada üç adet parametre göndermemiz gerekiyor ilk olarak paket id sonra fiyat daha sonrasında ise geri dönüş url mağazadaki girdiğiniz geri dönüş url ile aynı olması gerekiyor bu dosyamız da shopierNotfiy.php dosyamız oluyor.
 ?>
