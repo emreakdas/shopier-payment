@@ -1,6 +1,6 @@
 <?php
 // Değişkene göre kendiniz düzenleyebilirsiniz.
-        include 'app/Libraries/Shopier/shopierAPI.php';
+        include 'shopierAPI.php';
 				$shopierKey = $pos['shopierKey'];
 				$shopierSecret = $pos['shopierSecret'];
 				$shopier = new Shopier($shopierKey, $shopierSecret);
