@@ -6,13 +6,13 @@ $shopier->setBuyer([ // Kullanıcı bilgileri
 'paket' => 'Eti Canga', // Paket adı
 'first_name' => 'Emre', 'last_name' => 'AKDAŞ', 'email' => 'info@emreakdas.com', 'phone' => '05555555555']); // Kullanıcının ad, soyad, telefon, email bilgileri
 $shopier->setOrderBilling([
-'billing_address' => 'Meclis Mahallesi Emre Caddesi No:544564', //Kullanıcının adresi
+'billing_address' => 'Emre Caddesi No:544564', //Kullanıcının adresi
 'billing_city' => 'İstanbul', // İl
 'billing_country' => 'Türkiye', //Ülke
 'billing_postcode' => '34000', //Posta Kodu
 ]);
 $shopier->setOrderShipping([
-'shipping_address' => 'Meclis Mahallesi Emre Caddesi No:544564', //Kullanıcının adresi
+'shipping_address' => 'Emre Caddesi No:544564', //Kullanıcının adresi
 'shipping_city' => 'İstanbul', // İl
 'shipping_country' => 'Türkiye', //Ülke
 'shipping_postcode' => '34000', //Posta Kodu
