@@ -1,21 +1,21 @@
 # Shopier
 Shopier kredi kartı entegrasyonu nasıl yapılır? Shopier açık API sağlıyor mu? gibi bir çok konu ve makale bulunmakta. Bu konuya açıklık getirmek amacıyla Shopier hakkında sorulan soruları cevaplayıp ve kredi kartı entegrasyonunu nasıl yapabileceğinizden bahsedeceğim.
 
-# Shopier Nedir?
+- Shopier Nedir?
 Shopier aslında sanal pos sağlayan bir firma gibi gözükse de aslında sanal pos sağlayan bir firma değildir. Shopier kendi sitesi içerisinden ödeme almanızı sağlayan bir aracıdır.
 
-# Shopier Açık API Sağlıyor mu?
+- Shopier Açık API Sağlıyor mu?
 Shopier herhangi bir açık API sağlamamakta. Müşteri hizmetlerinizi arasanız dahi kredi kartı entegrasyonu için herhangi bir açık API sağlamadıklarını dile getireceklerdir.
 
-# Açık API Sağlamıyor Entegrasyon Nasıl Olacak?
+- Açık API Sağlamıyor Entegrasyon Nasıl Olacak?
 Bu konu çokça kişinin belirli yerlerden belirli bir ücret karşılığında entegrasyon yapmalarını istediği bir konu fakat bu konuya açıklık getirecek olursam; Herhangi bir açık API dahi bulunmasa bile bu bizim entegrasyon yapmamamıza olanak sağlamayacaktır. Entegrasyon işlemini yazılan bir sınıf ile entegre edip kendi sitemizde girilen tutara göre ödeme almamızı sağlayacağız. Nasıl mı? Şöyle; Bu sınıf girilen tutara göre manuel bir ürün oluşturup ödeme almamızı sağlıyor aslında bu oluşturulan ürün ürünlerim kısmında gözükmese dahi hayali bir ürün diyebiliriz. Kullanıcı aldığı ürüne göre tutar bizim sitemizden gidiyor kredi kartı ile ödeme almamızı sağlıyor.
 
-Herhangi Bir Sorun Yaşar mıyım?
+- Herhangi Bir Sorun Yaşar mıyım?
 Bu yöntemi çoğu kişinin kullanması ile birlikte herhangi bir sorun yaşamadıklarını göreceksiniz. Yasal mı yaptığımız yöntem derseniz sizin adınıza açılan bir mağazada istediğiniz kadar ödeme alıp istediğiniz kadar ürün oluşturabilme yetkiniz nasıl var ise bu yöntemde yasaldır.
 
 Entegrasyon için tarafıma günde bir ton mail geliyor entegrasyon yapmıyorum lütfen mail atmayınız!
 
-Shopier Kredi Kartı Entegrasyonu
+- Shopier Kredi Kartı Entegrasyonu
 Gelelim entegrasyon işlemini yapmaya. GitHub hesabımda açtığım bir repository de bu kaynak kodları size vereceğim. 5 Adımda entegrasyon işlemini yapalım.
 
 Entegrasyon Dosyalarının İndirilmesi
