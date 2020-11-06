@@ -1,3 +1,8 @@
+[![GitHub stars](https://img.shields.io/github/stars/emreakdas/shopier-payment.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/emreakdas/shopier-payment/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/emreakdas/shopier-payment.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/emreakdas/shopier-payment/watchers/)
+[![GitHub issues](https://img.shields.io/github/issues/emreakdas/shopier-payment.svg)](https://GitHub.com/emreakdas/shopier-payment/issues/)
+[![Github all releases](https://img.shields.io/github/downloads/emreakdas/shopier-payment/total.svg)](https://GitHub.com/emreakdas/shopier-payment/releases/)
+
 [logo]: https://i.hizliresim.com/D3WMz1.png
 ![logo]
 # Shopier Nedir? Entegrasyon Nasıl Yapılır?
