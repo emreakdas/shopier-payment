@@ -30,9 +30,9 @@ Bu yöntemi çoğu kişinin kullanması ile birlikte herhangi bir sorun yaşamad
     $shopier->setBuyer([ // Kullanıcı bilgileri
     'id' => '123456', // Sipariş kodu
     'paket' => 'Eti Canga', // Paket adı
-    'first_name' => 'Emre', 'last_name' => 'AKDAŞ', 'email' => 'info@emreakdas.com', 'phone' => '05555555555']); // Kullanıcının ad, soyad, telefon, email bilgileri
+    'first_name' => 'Emre', 'last_name' => 'AKDAŞ', 'email' => 'mail@siteadi', 'phone' => '05555555555']); // Kullanıcının ad, soyad, telefon, email bilgileri
     $shopier->setOrderBilling([
-    'billing_address' => 'Meclis Mahallesi Emre Caddesi No:544564', //Kullanıcının adresi
+    'billing_address' => 'Emre Caddesi No:544564', //Kullanıcının adresi
     'billing_city' => 'İstanbul', // İl
     'billing_country' => 'Türkiye', //Ülke
     'billing_postcode' => '34000', //Posta Kodu
@@ -61,7 +61,7 @@ Not: Bu sayfa kullanıcının göreceği bir sayfa değildir kod bloklarının i
   $signature = $_POST["signature"];
 
   /* Bu kısımda kullanıcının işlem başarılı ve başarısızsa yönleneceği değişkenlerdir. */
-  $url = 'https://emreakdas.com/';
+  $url = 'https://siteadi.com/';
   $locationtrue = $url."order?orderNo=$invoiceId";
   $locationfalse = $url."order?orderNo=none";
   /* Bu kısımda kullanıcının işlem başarılı ve başarısızsa yönleneceği değişkenlerdir. */
