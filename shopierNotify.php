@@ -7,7 +7,7 @@ $installment = $_POST["installment"];
 $signature = $_POST["signature"];
 
 /* Bu kısımda kullanıcının işlem başarılı ve başarısızsa yönleneceği değişkenlerdir. */
-$url = 'https://emreakdas.com/';
+$url = 'https://siteadi.com/';
 $locationtrue = $url."order?orderNo=$invoiceId";
 $locationfalse = $url."order?orderNo=none";
 /* Bu kısımda kullanıcının işlem başarılı ve başarısızsa yönleneceği değişkenlerdir. */
