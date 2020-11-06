@@ -1,5 +1,4 @@
 <?php
-// emreakdas.com
 class Shopier
 	{
 		private $payment_url = 'https://www.shopier.com/ShowProduct/api_pay4.php';
