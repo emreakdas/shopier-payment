@@ -91,6 +91,6 @@ Not: Bu sayfa kullanıcının göreceği bir sayfa değildir kod bloklarının i
   ```
 - Entegrasyon işlemi bu kadar sormak istediğiniz herhangi bir soruyu issues açarak sorabilirsiniz. Sağlıklı günler :)
 ### Bilgilendirme
-Bu API unofficial api'dir. Herhangi bir sorun veya sorunlardan sorumlu değilim bilginize.
+Bu API unofficial api'dir. Herhangi bir sorun veya sorunlardan sorumlu değilim bilginize. Bu API kullanan bu şartlandırmayı kabul etmiş sayılır.
 ### Lisans
 Shopier API [MIT](https://opensource.org/licenses/mit-license.php) lisansı altında lisanslanan açık kaynaklı bir api'dir.
