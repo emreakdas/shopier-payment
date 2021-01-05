@@ -36,8 +36,11 @@ Bu yöntemi çoğu kişinin kullanması ile birlikte herhangi bir sorun yaşamad
     $shopier = new Shopier('SHOPIER_API_KEY', 'SHOPIER_API_SECRET'); // Kendi api bilgilerinizi gireceksiniz.
     $shopier->setBuyer([ // Kullanıcı bilgileri
     'id' => '123456', // Sipariş kodu
-    'paket' => 'Eti Canga', // Paket adı
-    'first_name' => 'Emre', 'last_name' => 'AKDAŞ', 'email' => 'mail@siteadi.com', 'phone' => '05555555555']); // Kullanıcının ad, soyad, telefon, email bilgileri
+    'product_name' => 'Eti Canga', // Ürün adı
+    'first_name' => 'Emre',
+    'last_name' => 'AKDAŞ',
+    'email' => 'mail@siteadi.com',
+    'phone' => '05555555555']); // Kullanıcının ad, soyad, telefon, email bilgileri
     $shopier->setOrderBilling([
     'billing_address' => 'Emre Caddesi No:544564', //Kullanıcının adresi
     'billing_city' => 'İstanbul', // İl
@@ -73,7 +76,7 @@ Not: Bu sayfa kullanıcının göreceği bir sayfa değildir kod bloklarının i
   $locationfalse = $url."order?orderNo=none";
   /* Bu kısımda kullanıcının işlem başarılı ve başarısızsa yönleneceği değişkenlerdir. */
 
-  $data = $_POST["random_nr"] . $_POST["platform_order_id"] . $_POST["total_order_value"] . $_POST["currency"];
+  $data = $_POST["random_nr"] . $_POST["platform_order_id"];
   $signature = base64_decode($signature);
   $expected = hash_hmac('SHA256', $data, $shopierSecret, true);
   if ($signature == $expected) {
