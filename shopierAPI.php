@@ -66,7 +66,7 @@ class Shopier
 				'API_key' => $this->api_key,
 				'website_index' => 1,
 				'platform_order_id' => $this->buyer['id'],
-				'product_name' => $this->buyer['paket'],
+				'product_name' => $this->buyer['product_name'],
 				'product_type' => 0, //1 : downloadable-virtual 0:real object,2:default
 				'buyer_name' => $this->buyer['first_name'],
 				'buyer_surname' => $this->buyer['last_name'],
@@ -207,6 +207,7 @@ class Shopier
 				'last_name' => true,
 				'email' => true,
 				'phone' => true,
+				'product_name' => true
 			];
 		}
 
