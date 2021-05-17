@@ -1,7 +1,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/emreakdas/shopier-payment.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/emreakdas/shopier-payment/stargazers/)
 [![GitHub watchers](https://img.shields.io/github/watchers/emreakdas/shopier-payment.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/emreakdas/shopier-payment/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/emreakdas/shopier-payment.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/emreakdas/shopier-payment/network/)
-[![GitHub issues](https://img.shields.io/github/issues/emreakdas/shopier-payment.svg)](https://GitHub.com/emreakdas/shopier-payment/issues/)
 [![Github all releases](https://img.shields.io/github/downloads/emreakdas/shopier-payment/total.svg)](https://GitHub.com/emreakdas/shopier-payment/releases/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
