@@ -9,7 +9,7 @@
 
 ### Usage
 
-    ```php
+```php
    <?php
     include 'shopierAPI.php'; 
     $shopier = new Shopier('SHOPIER_API_KEY', 'SHOPIER_API_SECRET');
@@ -31,11 +31,11 @@
     ]);
     die($shopier->run('544546545', 50, 'https://siteadi.com/shopierNotify.php'));
   ?>
-    ```
+ ```
     
-- CallBack Page
+### CallBack Page
 
-  ```php
+```php
   <?php
     $status = $_POST["status"];
     $invoiceId = $_POST["platform_order_id"];
@@ -56,7 +56,7 @@
       }
     }
   ?>
-  ```
+```
 
 ### Bilgilendirme
 Bu API unofficial api'dir. Herhangi bir sorun veya sorunlardan sorumlu değilim bilginize. Bu API kullanan bu şartlandırmayı kabul etmiş sayılır.
