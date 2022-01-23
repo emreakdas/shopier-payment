@@ -58,7 +58,5 @@
   ?>
 ```
 
-### Bilgilendirme
-Bu API unofficial api'dir. Herhangi bir sorun veya sorunlardan sorumlu değilim bilginize. Bu API kullanan bu şartlandırmayı kabul etmiş sayılır.
 ### Lisans
 Shopier API [MIT](https://opensource.org/licenses/mit-license.php) lisansı altında lisanslanan açık kaynaklı bir api'dir.
